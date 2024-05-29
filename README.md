@@ -26,4 +26,6 @@ The eye regions are detected with the yolov8 face model [(link)](https://github.
 
 ## Demo Video
 The following demo videos demonstrate the DE-ViViT model’s ability to adapt to changes in lighting, camera angle, and head movement.
+![demovid_lighting](demo_videos/output_lighting.gif)
+
 
