@@ -10,10 +10,13 @@ Eye blink detection, the task of accurately detecting the timepoint in which a p
 In these cases, it is better to detect eye blinks through RGB video footage. This however, becomes increasingly difficult with the variation in environmental factors such as camera angle, lighting, and head movement. Our proposed model, called Dual Embedding Video Vision Transformer (DE-ViViT), uses modified tubelet embedding and residual embeddings to mitigate these difficulties, allowing the model to retain high accuracy across changes in these factors.
 
 For more detailed information about the model architecture and training process, please visit the paper link or the official implementation repository:
+
 (paper link)
+
 https://openaccess.thecvf.com/content/WACV2024/html/Hong_Robust_Eye_Blink_Detection_Using_Dual_Embedding_Video_Vision_Transformer_WACV_2024_paper.html
 
 (official implementation repository link)
+
 https://github.com/hongtuna/Eyeblink-detection-using-ViViT/tree/main
 
 ## Usage
@@ -25,12 +28,19 @@ If you want to detect blinks from a recorded video by iterating through frames, 
 The eye regions are detected with the yolov8 face model [(link)](https://github.com/akanametov/yolov8-face).
 
 ## Demo Video
+
 The following demo videos demonstrate the DE-ViViT model’s ability to adapt to changes in lighting, camera angle, and head movement.
+
 (lighting)
+
 ![demovid_lighting](demo_videos/output_lighting.gif)
+
 (camera angle)
+
 ![demovid angle](demo_videos/output_angle_small.gif)
+
 (head movement)
+
 ![demovid move](demo_videos/output_headmove.gif)
 
 ## Tips
