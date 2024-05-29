@@ -51,7 +51,7 @@ If you have any questions, please contact me at: joeshin3956@hanyang.ac.kr
 
 ## Citation
 
-'''
+```
 @inproceedings{hong2024robust,
   title={Robust Eye Blink Detection Using Dual Embedding Video Vision Transformer},
   author={Hong, Jeongmin and Shin, Joseph and Choi, Juhee and Ko, Minsam},
