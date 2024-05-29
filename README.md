@@ -48,3 +48,16 @@ The accuracy of eye blink detection through this code largely depends on prevent
 
 ## Contact
 If you have any questions, please contact me at: joeshin3956@hanyang.ac.kr
+
+## Citation
+
+'''
+@inproceedings{hong2024robust,
+  title={Robust Eye Blink Detection Using Dual Embedding Video Vision Transformer},
+  author={Hong, Jeongmin and Shin, Joseph and Choi, Juhee and Ko, Minsam},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={6374--6384},
+  year={2024}
+}
+
+
