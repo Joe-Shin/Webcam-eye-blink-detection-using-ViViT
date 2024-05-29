@@ -26,6 +26,15 @@ The eye regions are detected with the yolov8 face model [(link)](https://github.
 
 ## Demo Video
 The following demo videos demonstrate the DE-ViViT model’s ability to adapt to changes in lighting, camera angle, and head movement.
+(lighting)
 ![demovid_lighting](demo_videos/output_lighting.gif)
+(camera angle)
+![demovid angle](demo_videos/output_angle_small.gif)
+(head movement)
+![demovid move](demo_videos/output_headmove.gif)
 
+## Tips
+The accuracy of eye blink detection through this code largely depends on preventing the webcam from missing frames. A poor webcam or insufficient computing power can hinder the webcam from captureing all frames in real time, which has a large impact due to the instantaneous nature of eye blinks. This code uses Yolov8 face to detect the eye regions, but consider using a lighter model or variant if computing power becomes a problem.
 
+## Contact
+If you have any questions, please contact me at: joeshin3956@hanyang.ac.kr
